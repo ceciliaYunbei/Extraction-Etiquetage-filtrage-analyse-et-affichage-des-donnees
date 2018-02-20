@@ -1,0 +1,63 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT population_france_final (province)+>
+<!ATTLIST population_france_final
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT province (Nom,
+                    (Numero_de_region,Population_Totale,Homme,
+                     Proportion_H,Femme,Proportion_F,
+                     Education_Universite,Proportion_Universite,
+                     Difference_femme_homme,Densite)?)>
+<!ATTLIST province
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Nom (#PCDATA)>
+<!ATTLIST Nom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Numero_de_region (#PCDATA)>
+<!ATTLIST Numero_de_region
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Population_Totale (#PCDATA)>
+<!ATTLIST Population_Totale
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Homme (#PCDATA)>
+<!ATTLIST Homme
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Proportion_H (#PCDATA)>
+<!ATTLIST Proportion_H
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Femme (#PCDATA)>
+<!ATTLIST Femme
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Proportion_F (#PCDATA)>
+<!ATTLIST Proportion_F
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Education_Universite (#PCDATA)>
+<!ATTLIST Education_Universite
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Proportion_Universite (#PCDATA)>
+<!ATTLIST Proportion_Universite
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Difference_femme_homme (#PCDATA)>
+<!ATTLIST Difference_femme_homme
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Densite (#PCDATA)>
+<!ATTLIST Densite
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>

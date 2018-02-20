@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="population.xsl"?>
+<population>
+    <big_title>population</big_title>
+    <description_bref>Distribution de population des deux pays par région</description_bref>
+    <principal>
+        <devant>Dans cette partie nous allons analyse des données de la répartition (unité : 10 000 personnes) et la densité de population(unité : 10 000 personnes/km²) par province.</devant>
+        <china>
+            <title>I. Chine</title>
+        <first_content>
+            <title>1.Distribution de population par province</title>
+            <content>
+                <p>Cette graphe présente la répartition de population en proportion, les chiffres remarquables sont celles de province Guangdong(7,9%), Shandong(7,2%), Henan (7,1%), Sichuan(6.1%). Guangdong est une province côtière à sud-est, et son niveau d'économique est relativement élevé, nous propose ainsi une hypothèque : la répartition de population est corrélative au niveau d'économique et la location géographique. </p>
+                
+                </content>
+        </first_content>
+        <second_content>
+            <title>2.Densité de population par province</title>
+            <content>
+                <p>La densité de population est présentée en nombre de personne, dans graphe 3 nous pourrons constater que la population à l'est de la Chine, notamment à sud-est et aux villes côtières est plus nombreuse que celle à l'ouest.</p>
+                <p>Cette caractéristique n'est pas étonnante car il s'agit d'une ligne "Heihe-Tengchong" qui est une ligne imaginaire de démarcation géo-démographique, cette ligne est découvert par le géographe et démographe chinois Hu Huanyong en 1935 dont Heihe est dans la province Heilongjiang au nord-est de la Chine, au Tengchong dans le province Yunnan au sud-ouest.</p>
+                <p>D'ailleurs pour certaines villes côtières, la population est plus dense, tel que Shanghai (3630,49 dix milles personnes/km²) et Beijing(1085,4 dix milles personnes/km²), lors que la province Xizang (2,46 dix milles personnes/km²) et Xinjiang(13,1 dix milles personnes/km²) ont un petit nombre de population. Nous déduisons que la population dense tenait probablement à un niveau d'économique plus élevé, et cela prouve davantage notre hypothèse précédent. Il s'agit probablement d'autres facteurs d'influence, tel que la position géographique, l'historique, la culture et la politique locale sur la population, etc.</p>
+            </content>
+        </second_content>
+        </china>
+        
+        
+        <france>
+            <title>II. France</title>
+            <first_content>
+                <title>1.Distribution de population par province</title>
+                <content>
+                    <p>Dans graphe 4,5 nous pourrons constater, que la répartition de population française est assez différente que celle de la Chine. Les chiffres remarquables sont Île-de-France(18,2%), Rhône-Alpes(9,6%) et Provence-Alpes-côte-d'Azur (7,6%). Ces 3 région occupent 35,4% de la population française, sachant que Île-de-France est la région parisienne, ce qui en fait la région la plus peuplée et les deux restant sont à sud-est de la France, à la frontière, le niveau d'économique est élevé.</p>
+                </content>
+            </first_content>
+            <second_content>
+                <title>2.Densité de population par province</title>
+                <content>
+                    <p>Dans graphe 6 nous pourrons constater, relativement, que la population est également répartie par rapport à la Chine, à part Île-de-France(981.2 dix milles personnes/km²), Nord-pas-de-Calais(325.3 dix milles personnes/km²) et certaines régions à la frontière. Nord-pas-de-Calais, géographiquement, il localise au nord de la France, à côté de Belgique et à une façade Manche regardant l'Angleterre. Nous déduisons que la population dense tenait probablement à l'économique et une location géographique particulière, mais il s'agit peut-être d'autre facteurs : historique (immigration), natalité élevé, etc, ceci reste en contraintes car il nous manque des données pour prouver ceux derniers.</p>
+                </content>
+            </second_content>
+        </france>
+        
+        <conclusion>
+            <title>III.Conclusion</title>
+            <content>La répartition et la densité de population sont liées au niveau d'économie et la location géographique, ainsi que les facteurs sociaux et historiques, et elle est variée au regard de pays. En chine, la population sont plus dense à l'est et aux villes plus développées économiquement, tandis qu'en France, la population sont plus dense au tours de la capitale et au nord. </content>
+        </conclusion>
+        
+    </principal>
+</population>

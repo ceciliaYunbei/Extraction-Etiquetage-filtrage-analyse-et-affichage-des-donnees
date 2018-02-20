@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="population_chine_final">
+      <oneOrMore>
+        <element name="province">
+          <element name="Nom">
+            <text/>
+          </element>
+          <optional>
+            <element name="Population">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Homme">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Femme">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="plus_15">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="plus_64">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Education_University">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Education_percentage">
+              <text/>
+            </element>
+            <element name="Différence_homme_femme">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Surface">
+              <attribute name="unit">
+                <data type="NCName"/>
+              </attribute>
+              <data type="decimal"/>
+            </element>
+            <element name="Densité">
+              <attribute name="unit"/>
+              <text/>
+            </element>
+          </optional>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>

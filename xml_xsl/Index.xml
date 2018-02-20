@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="index.xsl"?>
+<index>
+    <first_title>Home</first_title>
+    <description_bref>Presentation de projet</description_bref>
+    <content_title>Introduction de projet</content_title>
+    <home_content>
+        <p>Ce site a été réalisé dans le cadre du cours XML de M2 Traitement automatique des langues. Le travaux présentée ici est pour l'objectif d'analyser et de comparer la répartition et la densité de population, la proportion de femmes et d'hommes, la situation de l'éducation de la Chine et ceux de la France. </p>
+        <p>Le problématique de notre projet est si la répartition et la densité de population, la proportion de femmes et d'hommes, la situation de léducation de la Chine sont différentes de celles de la France? Est-ce que le niveau d'économie est u facteur d'influence?</p>
+        <p>Il y a 5 phrases dans notre processus: Récupération des données, nettoyage et modélisation des données en XML, génération de la grammaire DTD, génération des graphes de présentation à l'aide de javascript, analyse des données et transformation des données pour le site web.</p>
+        <p>Dans la page de données, on a présenté notre corpus avec des détailles, les récupérations des données et les nettoyages des données. Dans les pages d'analyse, on a fait des analyses sur des résultats par rubrique à l'aide de représentations graphiques, et aussi parlé des méthodes qu'on a utilisées pour ces affichages.</p>
+        <p>Pour conclure et comme perspectives, on a réalisé ce projet avec l'interface html qui a tout à fait répondu à notre problématique et à l'aide de représentations graphiques, qui est aussi très explicite et illustré. Mais ce qui est un peu moins satisfaisant pour nous est que faute de temps, on a que comparé les données de deux pays dans la même année 2010. Il y a aussi des possibilités d'amélioration: on peut récolter des données de population de ces deux pays sur une échelle des années et comparer non seulement les deux pays dans la même période mais aussi comparer le seul pays lui-même dans les années différentes.</p>
+    </home_content>
+    <links>
+        <first_link>
+            <title>Population</title>
+            <content>Dans cette partie, il présente les cartes et diagrammes circulaires de distributions de population et de la densité de population par région de deux pays et notre analyse. </content>
+        </first_link>
+        <second_link>
+            <title>Homme&amp;Femme</title>
+            <content>Dans cette partie, il presente les cartes et histogrammes de répartition de hommes et femmes par région de deux pays et notre analyse. </content>
+        </second_link>
+        <third_link>
+            <title>Education</title>
+            <content>Dans cette partie, il presente les cartes dela proportion de personnes ayant obtenu un diplôme universitaire (population &gt; 6 ans ayant un diplôme universitaire / population &gt; 15 ans) en Chine (par province) et en France par région</content>
+        </third_link>
+    </links>
+</index>

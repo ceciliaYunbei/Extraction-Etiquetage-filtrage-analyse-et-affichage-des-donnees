@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="education.xsl"?>
+<education>
+    <big_title>Éducation</big_title>
+    <description_bref>Proportion des population diplomée d'université</description_bref>
+    <principal>
+        <devant>Dans cette partie nous allons analyser des données de la proportion de personnes ayant obtenu un diplôme universitaire (population &gt; 6 ans ayant un diplôme universitaire / population &gt; 15 ans) en Chine (par province) et en France (par région). Les données sont légèrement différentes mais ils n'affecte pas beaucoup le résultat.</devant>
+        <china>
+            <title>I.Chine</title>
+            <content>Le graphe 1 présente une répartition du niveau d'éducation en Chine. Généralement, la proportion n'est  pas très élevée, surtout dans la province Guizhou(7,08%), Yunnan(7,26%), Xizang(7,28%), Guangxi(7,64%). Ces derniers sont à sud-ouest de la Chine dans les régions montagneuses où le niveau d'économique n'est pas très élevé. Par contre, le niveau d'éducation à Beijing(34,47%), Tianjin(24,02%) et Shanghai(19,38%) sont les plus élevés, ces 3 villes sont soit le centre économique, soit le centre administratif soit proche du centre d'administratif.</content>
+        </china>
+        <france>
+            <title>II.France</title>
+            <content>Le  graphe 2 présente la répartition de niveau d'éducation en France. En général, le niveau d'éducation est élevé et l'éducation est très vulgarisée, dont Île-de-France(45,33%),  les régions au sud, Corse(36,66%), Bretagne(35,77%) sont plus remarquables.</content>
+        </france>
+        <conclusion>
+            <title>II.Conclusion </title>
+            <content>Le niveau d'éducation(la proportion de personnes de 15 ans ou plus) correspond à un niveau d'économique, la capitale de deux pays ont une chiffre la plus élevée, en conséquence, nous pouvons déduire que le niveau d'éducation élevé tenait à un centre d'administratif. Le niveau d'éducation de la France reste généralement plus élevée que celle de la Chine. </content>
+        </conclusion>
+    </principal>
+</education>

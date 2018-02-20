@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<population_france_final>
+<province>
+<Nom>Alsace</Nom>
+<Numero_de_region>42</Numero_de_region>
+<Population_Totale unit="dix mille">184.57</Population_Totale>
+<Homme unit="dix mille">90.12</Homme>
+<Proportion_H>48.83 %</Proportion_H>
+<Femme unit="dix mille">94.45</Femme>
+<Proportion_F>51.17 % </Proportion_F>
+<Education_Universite unit="dix mille ">50.7888</Education_Universite>
+<Proportion_Universite>33.62%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">4.33</Difference_femme_homme>
+<Densite unit="personne/km2">222.9</Densite>
+</province>
+<province>
+<Nom>Aquitaine</Nom>
+<Numero_de_region>72</Numero_de_region>
+<Population_Totale unit="dix mille">323.24</Population_Totale>
+<Homme unit="dix mille">155.47</Homme>
+<Proportion_H>48.10 %</Proportion_H>
+<Femme unit="dix mille">167.77</Femme>
+<Proportion_F>51.90 %</Proportion_F>
+<Education_Universite unit="dix mille ">94.5193</Education_Universite>
+<Proportion_Universite>35.39%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">12.30</Difference_femme_homme>
+<Densite unit="personne/km2">78.3</Densite>
+</province>
+<province>
+<Nom>Auvergne</Nom>
+<Numero_de_region>83</Numero_de_region>
+<Population_Totale unit="dix mille">134.74</Population_Totale>
+<Homme unit="dix mille">65.22</Homme>
+<Proportion_H>48.41 %</Proportion_H>
+<Femme unit="dix mille">69.52</Femme>
+<Proportion_F>51.59 %</Proportion_F>
+<Education_Universite unit="dix mille ">36.1259</Education_Universite>
+<Proportion_Universite>32.03%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">4.30</Difference_femme_homme>
+<Densite unit="personne/km2">51.8</Densite>
+</province>
+<province>
+<Nom>Basse-Normandie</Nom>
+<Numero_de_region>25</Numero_de_region>
+<Population_Totale unit="dix mille">147.35</Population_Totale>
+<Homme unit="dix mille">71.39</Homme>
+<Proportion_H>48.45 %</Proportion_H>
+<Femme unit="dix mille">75.96</Femme>
+<Proportion_F>51.55 %</Proportion_F>
+<Education_Universite unit="dix mille ">34.9992</Education_Universite>
+<Proportion_Universite>29.03%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">4.57</Difference_femme_homme>
+<Densite unit="personne/km2">83.8</Densite>
+</province>
+<province>
+<Nom>Bourgogne</Nom>
+<Numero_de_region>26</Numero_de_region>
+<Population_Totale unit="dix mille">164.21</Population_Totale>
+<Homme unit="dix mille">79.54</Homme>
+<Proportion_H>48.44 %</Proportion_H>
+<Femme unit="dix mille">84.67</Femme>
+<Proportion_F>51.56 %</Proportion_F>
+<Education_Universite unit="dix mille ">41.2888</Education_Universite>
+<Proportion_Universite>30.25%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">5.13</Difference_femme_homme>
+<Densite unit="personne/km2">52.0</Densite>
+</province>
+<province>
+<Nom>Bretagne</Nom>
+<Numero_de_region>53</Numero_de_region>
+<Population_Totale unit="dix mille">319.91</Population_Totale>
+<Homme unit="dix mille">155.32</Homme>
+<Proportion_H>48.55 %</Proportion_H>
+<Femme unit="dix mille">164.58</Femme>
+<Proportion_F>51.45 %</Proportion_F>
+<Education_Universite unit="dix mille ">92.8681</Education_Universite>
+<Proportion_Universite>35.77%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">9.26</Difference_femme_homme>
+<Densite unit="personne/km2">117.6</Densite>
+</province>
+<province>
+<Nom>Centre</Nom>
+<Numero_de_region>24</Numero_de_region>
+<Population_Totale unit="dix mille">254.81</Population_Totale>
+<Homme unit="dix mille">123.87</Homme>
+<Proportion_H>48.61 %</Proportion_H>
+<Femme unit="dix mille">130.94</Femme>
+<Proportion_F>51.39 %</Proportion_F>
+<Education_Universite unit="dix mille ">65.2393</Education_Universite>
+<Proportion_Universite>31.34%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">7.07</Difference_femme_homme>
+<Densite unit="personne/km2">65.1</Densite>
+</province>
+<province>
+<Nom>Champagne-Ardenne</Nom>
+<Numero_de_region>21</Numero_de_region>
+<Population_Totale unit="dix mille">133.59</Population_Totale>
+<Homme unit="dix mille">65.11</Homme>
+<Proportion_H>48.74 %</Proportion_H>
+<Femme unit="dix mille">68.48</Femme>
+<Proportion_F>51.26 %</Proportion_F>
+<Education_Universite unit="dix mille ">31.4501</Education_Universite>
+<Proportion_Universite>28.73%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">3.37</Difference_femme_homme>
+<Densite unit="personne/km2">52.2</Densite>
+</province>
+<province>
+<Nom>Corse</Nom>
+<Numero_de_region>94</Numero_de_region>
+<Population_Totale unit="dix mille">30.97</Population_Totale>
+<Homme unit="dix mille">15.16</Homme>
+<Proportion_H>48.96 %</Proportion_H>
+<Femme unit="dix mille">15.81</Femme>
+<Proportion_F>51.04 %</Proportion_F>
+<Education_Universite unit="dix mille ">9.5117</Education_Universite>
+<Proportion_Universite>36.66%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">0.65</Difference_femme_homme>
+<Densite unit="personne/km2">35.7</Densite>
+</province>
+<province>
+<Nom>Franche-Comté</Nom>
+<Numero_de_region>43</Numero_de_region>
+<Population_Totale unit="dix mille">117.18</Population_Totale>
+<Homme unit="dix mille">57.62</Homme>
+<Proportion_H>49.18 %</Proportion_H>
+<Femme unit="dix mille">59.55</Femme>
+<Proportion_F>50.82 %</Proportion_F>
+<Education_Universite unit="dix mille ">30.0257</Education_Universite>
+<Proportion_Universite>31.55%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">1.93</Difference_femme_homme>
+<Densite unit="personne/km2">72.3</Densite>
+</province>
+<province>
+<Nom>Haute-Normandie</Nom>
+<Numero_de_region>23</Numero_de_region>
+<Population_Totale unit="dix mille">183.7</Population_Totale>
+<Homme unit="dix mille">88.72</Homme>
+<Proportion_H>48.29 %</Proportion_H>
+<Femme unit="dix mille">94.98</Femme>
+<Proportion_F>51.71 %</Proportion_F>
+<Education_Universite unit="dix mille ">43.99</Education_Universite>
+<Proportion_Universite>29.71%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">6.26</Difference_femme_homme>
+<Densite unit="personne/km2">149.1</Densite>
+</province>
+<province>
+<Nom>Île-de-France</Nom>
+<Numero_de_region>11</Numero_de_region>
+<Population_Totale unit="dix mille">1178.62</Population_Totale>
+<Homme unit="dix mille">569.12</Homme>
+<Proportion_H>48.29 %</Proportion_H>
+<Femme unit="dix mille">609.5</Femme>
+<Proportion_F>51.71 %</Proportion_F>
+<Education_Universite unit="dix mille ">427.7767</Education_Universite>
+<Proportion_Universite>45.33%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">40.38</Difference_femme_homme>
+<Densite unit="personne/km2">981.2</Densite>
+</province>
+<province>
+<Nom>Languedoc-Roussillon</Nom>
+<Numero_de_region>91</Numero_de_region>
+<Population_Totale unit="dix mille">263.64</Population_Totale>
+<Homme unit="dix mille">126.44</Homme>
+<Proportion_H>47.96 %</Proportion_H>
+<Femme unit="dix mille">137.19</Femme>
+<Proportion_F>52.04 %</Proportion_F>
+<Education_Universite unit="dix mille ">77.3157</Education_Universite>
+<Proportion_Universite>35.79%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">10.75</Difference_femme_homme>
+<Densite unit="personne/km2">96.3</Densite>
+</province>
+<province>
+<Nom>Limousin</Nom>
+<Numero_de_region>74</Numero_de_region>
+<Population_Totale unit="dix mille">74.28</Population_Totale>
+<Homme unit="dix mille">35.8</Homme>
+<Proportion_H>48.20 %</Proportion_H>
+<Femme unit="dix mille">38.48</Femme>
+<Proportion_F>51.80 %</Proportion_F>
+<Education_Universite unit="dix mille ">20.2262</Education_Universite>
+<Proportion_Universite>32.07%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">2.68</Difference_femme_homme>
+<Densite unit="personne/km2">43.8</Densite>
+</province>
+<province>
+<Nom>Lorraine</Nom>
+<Numero_de_region>41</Numero_de_region>
+<Population_Totale unit="dix mille">235.09</Population_Totale>
+<Homme unit="dix mille">114.67</Homme>
+<Proportion_H>48.78 %</Proportion_H>
+<Femme unit="dix mille">120.42</Femme>
+<Proportion_F>51.22 %</Proportion_F>
+<Education_Universite unit="dix mille ">59.7153</Education_Universite>
+<Proportion_Universite>30.80%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">5.75</Difference_femme_homme>
+<Densite unit="personne/km2">99.8</Densite>
+</province>
+<province>
+<Nom>Midi-Pyrénées</Nom>
+<Numero_de_region>73</Numero_de_region>
+<Population_Totale unit="dix mille">288.18</Population_Totale>
+<Homme unit="dix mille">140.36</Homme>
+<Proportion_H>48.71 %</Proportion_H>
+<Femme unit="dix mille">147.82</Femme>
+<Proportion_F>51.29 %</Proportion_F>
+<Education_Universite unit="dix mille ">90.9047</Education_Universite>
+<Proportion_Universite>38.17%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">7.46</Difference_femme_homme>
+<Densite unit="personne/km2">63.5</Densite>
+</province>
+<province>
+<Nom>Nord - Pas-de-Calais</Nom>
+<Numero_de_region>31</Numero_de_region>
+<Population_Totale unit="dix mille">403.82</Population_Totale>
+<Homme unit="dix mille">194.87</Homme>
+<Proportion_H>48.26 %</Proportion_H>
+<Femme unit="dix mille">208.95</Femme>
+<Proportion_F>51.74 %</Proportion_F>
+<Education_Universite unit="dix mille ">99.6519</Education_Universite>
+<Proportion_Universite>30.91%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">14.08</Difference_femme_homme>
+<Densite unit="personne/km2">325.3</Densite>
+</province>
+<province>
+<Nom>Pays de la Loire</Nom>
+<Numero_de_region>52</Numero_de_region>
+<Population_Totale unit="dix mille">357.15</Population_Totale>
+<Homme unit="dix mille">173.99</Homme>
+<Proportion_H>48.72 %</Proportion_H>
+<Femme unit="dix mille">183.16</Femme>
+<Proportion_F>51.28 %</Proportion_F>
+<Education_Universite unit="dix mille ">93.9425</Education_Universite>
+<Proportion_Universite>32.87%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">9.17</Difference_femme_homme>
+<Densite unit="personne/km2">111.3</Densite>
+</province>
+<province>
+<Nom>Picardie</Nom>
+<Numero_de_region>22</Numero_de_region>
+<Population_Totale unit="dix mille">191.48</Population_Totale>
+<Homme unit="dix mille">93.57</Homme>
+<Proportion_H>48.87 %</Proportion_H>
+<Femme unit="dix mille">97.91</Femme>
+<Proportion_F>51.13 %</Proportion_F>
+<Education_Universite unit="dix mille ">44.9822</Education_Universite>
+<Proportion_Universite>29.28%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">4.34</Difference_femme_homme>
+<Densite unit="personne/km2">98.7</Densite>
+</province>
+<province>
+<Nom>Poitou-Charentes</Nom>
+<Numero_de_region>54</Numero_de_region>
+<Population_Totale unit="dix mille">177.04</Population_Totale>
+<Homme unit="dix mille">85.7</Homme>
+<Proportion_H>48.41 %</Proportion_H>
+<Femme unit="dix mille">91.34</Femme>
+<Proportion_F>51.59 %</Proportion_F>
+<Education_Universite unit="dix mille ">45.7241</Education_Universite>
+<Proportion_Universite>31.18%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">5.64</Difference_femme_homme>
+<Densite unit="personne/km2">68.6</Densite>
+</province>
+<province>
+<Nom>Provence-Alpes-Côte d'Azur</Nom>
+<Numero_de_region>93</Numero_de_region>
+<Population_Totale unit="dix mille">489.92</Population_Totale>
+<Homme unit="dix mille">234.06</Homme>
+<Proportion_H>47.78 %</Proportion_H>
+<Femme unit="dix mille">255.85</Femme>
+<Proportion_F>52.22 %</Proportion_F>
+<Education_Universite unit="dix mille ">150.9745</Education_Universite>
+<Proportion_Universite>37.27%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">21.79</Difference_femme_homme>
+<Densite unit="personne/km2">156</Densite>
+</province>
+<province>
+<Nom>Rhône-Alpes</Nom>
+<Numero_de_region>82</Numero_de_region>
+<Population_Totale unit="dix mille">623.07</Population_Totale>
+<Homme unit="dix mille">303.67</Homme>
+<Proportion_H>48.74 %</Proportion_H>
+<Femme unit="dix mille">319.4</Femme>
+<Proportion_F>51.26 %</Proportion_F>
+<Education_Universite unit="dix mille ">187.1285</Education_Universite>
+<Proportion_Universite>37.44%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">15.73</Difference_femme_homme>
+<Densite unit="personne/km2">142.6</Densite>
+</province>
+<province>
+<Nom>Guadeloupe </Nom>
+<Numero_de_region>1</Numero_de_region>
+<Population_Totale unit="dix mille">40.34</Population_Totale>
+<Homme unit="dix mille">18.79</Homme>
+<Proportion_H>46.59 %</Proportion_H>
+<Femme unit="dix mille">21.54</Femme>
+<Proportion_F>53.41 %</Proportion_F>
+<Education_Universite unit="dix mille ">8.5083</Education_Universite>
+<Proportion_Universite>27.20%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">2.75</Difference_femme_homme>
+<Densite unit="personne/km2"></Densite>
+</province>
+<province>
+<Nom>Martinique </Nom>
+<Numero_de_region>2</Numero_de_region>
+<Population_Totale unit="dix mille">39.42</Population_Totale>
+<Homme unit="dix mille">18.21</Homme>
+<Proportion_H>46.20 %</Proportion_H>
+<Femme unit="dix mille">21.21</Femme>
+<Proportion_F>53.80 %</Proportion_F>
+<Education_Universite unit="dix mille ">8.8144</Education_Universite>
+<Proportion_Universite>27.77%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">3.00</Difference_femme_homme>
+<Densite unit="personne/km2"></Densite>
+</province>
+<province>
+<Nom>Guyane</Nom>
+<Numero_de_region>973</Numero_de_region>
+<Population_Totale unit="dix mille">22.9</Population_Totale>
+<Homme unit="dix mille">11.36</Homme>
+<Proportion_H>49.60 %</Proportion_H>
+<Femme unit="dix mille">11.54</Femme>
+<Proportion_F>50.40 %</Proportion_F>
+<Education_Universite unit="dix mille "></Education_Universite>
+<Proportion_Universite></Proportion_Universite>
+<Difference_femme_homme unit="dix mille">0.18</Difference_femme_homme>
+<Densite unit="personne/km2"></Densite>
+</province>
+<province>
+<Nom>La Réunion</Nom>
+<Numero_de_region>4</Numero_de_region>
+<Population_Totale unit="dix mille">82.11</Population_Totale>
+<Homme unit="dix mille">39.8</Homme>
+<Proportion_H>48.46 %</Proportion_H>
+<Femme unit="dix mille">42.32</Femme>
+<Proportion_F>51.54 %</Proportion_F>
+<Education_Universite unit="dix mille ">14.6992</Education_Universite>
+<Proportion_Universite>24.16%</Proportion_Universite>
+<Difference_femme_homme unit="dix mille">2.52</Difference_femme_homme>
+<Densite unit="personne/km2"></Densite>
+</province>
+<province>
+<Nom></Nom>
+</province>
+</population_france_final>

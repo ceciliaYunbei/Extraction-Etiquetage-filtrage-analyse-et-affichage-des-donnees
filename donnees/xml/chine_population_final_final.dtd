@@ -1,0 +1,65 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT population_chine_final (province)+>
+<!ATTLIST population_chine_final
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT province (Nom,
+                    (Population,Homme,Femme,plus_15,plus_64,
+                     Education_University,Education_percentage,
+                     Différence_homme_femme,Surface,Densité)?)>
+<!ATTLIST province
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Nom (#PCDATA)>
+<!ATTLIST Nom
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Population (#PCDATA)>
+<!ATTLIST Population
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Homme (#PCDATA)>
+<!ATTLIST Homme
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Femme (#PCDATA)>
+<!ATTLIST Femme
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT plus_15 (#PCDATA)>
+<!ATTLIST plus_15
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT plus_64 (#PCDATA)>
+<!ATTLIST plus_64
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Education_University (#PCDATA)>
+<!ATTLIST Education_University
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Education_percentage (#PCDATA)>
+<!ATTLIST Education_percentage
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Différence_homme_femme (#PCDATA)>
+<!ATTLIST Différence_homme_femme
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>
+
+<!ELEMENT Surface (#PCDATA)>
+<!ATTLIST Surface
+  xmlns CDATA #FIXED ''
+  unit NMTOKEN #REQUIRED>
+
+<!ELEMENT Densité (#PCDATA)>
+<!ATTLIST Densité
+  xmlns CDATA #FIXED ''
+  unit CDATA #REQUIRED>

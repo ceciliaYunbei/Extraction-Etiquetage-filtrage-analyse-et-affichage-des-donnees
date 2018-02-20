@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="homme_femme.xsl"?>
+<homme_femme>
+    <big_title>Homme&amp;Femme</big_title>
+    <description_bref>La répartition des femmes et des hommes</description_bref>
+    <principal>
+        <devant>Dans cette partie nous allons analyser des données de la répartition des femmes et des hommes de la Chine (unité : 10 000 personnes/province) et de la France(unité : 10 000 personnes/région).</devant>
+        <china>
+            <title>I. Chine</title>
+            <content>Le graphe 1 présente la répartition des femmes et des hommes en Chine, il est sous forme d'un histogramme empilé, les deux composant sont femmes et hommes. À partir de ce graphe nous pouvons constater que le nombre d'hommes est plus grand que le nombre de femmes pour toutes les provinces. Le graphe 2 présente clairement la différence de nombre de femmes et des hommes par province (nombre d'hommes - nombre de femmes, car hommes sont plus nombreux).  Globalement, la différence de nombre de hommes et de femmes est assez grande au sud de la Chine, la chiffre la plus remarquable viennent de Guangdong (449,17 dix mille personnes). Guangdong est une province développée au niveau d'économique, cependant, les villes comme Beijing, Shanghai ne donnent pas une chiffre saillante, ceci dit que la différence de nombre femmes et d'hommes n'a pas de corrélation avec le niveau d'économie.</content>
+        </china>
+        <france>
+            <title>II. France</title>
+            <content>Le graphe 2 illustre la répartition de femmes et d'hommes en France, et principalement le nombre de femmes est plus grand que le nombre d'hommes. En conséquence nous avons obtenu la différence de les deux (nombre de femmes - nombre d'hommes). Île de France présente une chiffre saillante (40,38 dix mille personnes), Provence-Alpes-côte-d'Azur (21,79%) et Rhône-Alpes(15,73%). Ils ont un point commun : la population dans ces régions est plus dense. Dans ce sens, nous déduisons que la différence de nombre de femmes et d'hommes est corrélée à la densité de la population.</content>
+        </france>
+        <conclusion>
+            <title>III. Conclusion</title>
+            <content>La répartition et la différence de nombre de femmes et d'hommes n'est pas forcément dépendante du niveau d'économique, en Chine, il s'agit de plus d'hommes que des femmes, la différence est plus remarquable au sud, surtout dans la province Guangdong, ceci correspond probablement à la politique démographique et la culture locale (par exemple, la préférence accordée aux fils). Quant à la France, les femmes sont plus nombreuse que les hommes, notamment dans des régions ayant une population dense. La disparition, la proportion de femmes et d'hommes ainsi que des facteurs d'influence sont très différent entre la Chine et la France.</content>
+        </conclusion>
+    </principal>
+</homme_femme>

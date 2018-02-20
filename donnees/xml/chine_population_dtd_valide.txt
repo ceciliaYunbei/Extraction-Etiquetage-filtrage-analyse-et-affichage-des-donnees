@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<population_chine_final>
+<province>
+<Nom>Shandong</Nom>
+<Population unit="dix mille">9579.31</Population>
+<Homme unit="dix mille">4844.71</Homme>
+<Femme unit="dix mille">4734.59</Femme>
+<plus_15 unit="dix mille">7128.90</plus_15>
+<plus_64 unit="dix mille">942.98</plus_64>
+<Education_University unit="dix mille">832.87</Education_University>
+<Education_percentage>10.32%</Education_percentage>
+<Différence_homme_femme unit="dix mille">110.12</Différence_homme_femme>
+<Surface unit="km2">157126</Surface>
+<Densité unit="personne/km2">609.66</Densité>
+</province>
+<province>
+<Nom>Beijing</Nom>
+<Population unit="dix mille">1961.2</Population>
+<Homme unit="dix mille">1012.6</Homme>
+<Femme unit="dix mille">948.6</Femme>
+<plus_15 unit="dix mille">1621.6</plus_15>
+<plus_64 unit="dix mille">170.9</plus_64>
+<Education_University unit="dix mille">617.8</Education_University>
+<Education_percentage>34.47%</Education_percentage>
+<Différence_homme_femme unit="dix mille">64</Différence_homme_femme>
+<Surface unit="km2">16411</Surface>
+<Densité unit="personne/km2">1,195.05</Densité>
+</province>
+<province>
+<Nom>Tianjin</Nom>
+<Population unit="dix mille">1293.8</Population>
+<Homme unit="dix mille">690.7</Homme>
+<Femme unit="dix mille">603.1</Femme>
+<plus_15 unit="dix mille">1056.84</plus_15>
+<plus_64 unit="dix mille">110.2</plus_64>
+<Education_University unit="dix mille">226.2</Education_University>
+<Education_percentage>19.38%</Education_percentage>
+<Différence_homme_femme unit="dix mille">87.6</Différence_homme_femme>
+<Surface unit="km2">11920</Surface>
+<Densité unit="personne/km2">1,085.40</Densité>
+</province>
+<province>
+<Nom>Hebei</Nom>
+<Population unit="dix mille">7185.42</Population>
+<Homme unit="dix mille">3643</Homme>
+<Femme unit="dix mille">3542.4</Femme>
+<plus_15 unit="dix mille">5384.1</plus_15>
+<plus_64 unit="dix mille">591.97</plus_64>
+<Education_University unit="dix mille">524.3</Education_University>
+<Education_percentage>8.77%</Education_percentage>
+<Différence_homme_femme unit="dix mille">100.6</Différence_homme_femme>
+<Surface unit="km2">190000</Surface>
+<Densité unit="personne/km2">378.18</Densité>
+</province>
+<province>
+<Nom>Guangdong</Nom>
+<Population unit="dix mille">10430.3</Population>
+<Homme unit="dix mille">5439.74</Homme>
+<Femme unit="dix mille">4990.57</Femme>
+<plus_15 unit="dix mille">7964.56</plus_15>
+<plus_64 unit="dix mille">703.92</plus_64>
+<Education_University unit="dix mille">856.7</Education_University>
+<Education_percentage>9.88%</Education_percentage>
+<Différence_homme_femme unit="dix mille">449.17</Différence_homme_femme>
+<Surface unit="km2">179800</Surface>
+<Densité unit="personne/km2">580.11</Densité>
+</province>
+<province>
+<Nom>Zhejiang</Nom>
+<Population unit="dix mille">5442.69</Population>
+<Homme unit="dix mille">2796.57</Homme>
+<Femme unit="dix mille">2646.12</Femme>
+<plus_15 unit="dix mille">4723.77</plus_15>
+<plus_64 unit="dix mille">508.17</plus_64>
+<Education_University unit="dix mille">507.78</Education_University>
+<Education_percentage>9.71%</Education_percentage>
+<Différence_homme_femme unit="dix mille">150.45</Différence_homme_femme>
+<Surface unit="km2">104141</Surface>
+<Densité unit="personne/km2">522.63</Densité>
+</province>
+<province>
+<Nom>Henan</Nom>
+<Population unit="dix mille">9402.36</Population>
+<Homme unit="dix mille">4748.99</Homme>
+<Femme unit="dix mille">4653.36</Femme>
+<plus_15 unit="dix mille">6641.88</plus_15>
+<plus_64 unit="dix mille">785.88</plus_64>
+<Education_University unit="dix mille">601.56</Education_University>
+<Education_percentage>8.10%</Education_percentage>
+<Différence_homme_femme unit="dix mille">95.63</Différence_homme_femme>
+<Surface unit="km2">167000</Surface>
+<Densité unit="personne/km2">563.02</Densité>
+</province>
+<province>
+<Nom>Jiangsu</Nom>
+<Population unit="dix mille">7865.99</Population>
+<Homme unit="dix mille">3963</Homme>
+<Femme unit="dix mille">3902.9</Femme>
+<plus_15 unit="dix mille">5986.19</plus_15>
+<plus_64 unit="dix mille">856.78</plus_64>
+<Education_University unit="dix mille">850.68</Education_University>
+<Education_percentage>12.43%</Education_percentage>
+<Différence_homme_femme unit="dix mille">60.1</Différence_homme_femme>
+<Surface unit="km2">102658</Surface>
+<Densité unit="personne/km2">766.23</Densité>
+</province>
+<province>
+<Nom>Guangxi</Nom>
+<Population unit="dix mille">4602.66</Population>
+<Homme unit="dix mille">2392.62</Homme>
+<Femme unit="dix mille">2210.04</Femme>
+<plus_15 unit="dix mille">3178.2</plus_15>
+<plus_64 unit="dix mille">425.32</plus_64>
+<Education_University unit="dix mille">275.14</Education_University>
+<Education_percentage>7.64%</Education_percentage>
+<Différence_homme_femme unit="dix mille">182.58</Différence_homme_femme>
+<Surface unit="km2">236700</Surface>
+<Densité unit="personne/km2">194.45</Densité>
+</province>
+<province>
+<Nom>Anhui</Nom>
+<Population unit="dix mille">5950.1</Population>
+<Homme unit="dix mille">3024.6</Homme>
+<Femme unit="dix mille">2925.5</Femme>
+<plus_15 unit="dix mille">4274.5</plus_15>
+<plus_64 unit="dix mille">605.7</plus_64>
+<Education_University unit="dix mille">398.5</Education_University>
+<Education_percentage>8.17%</Education_percentage>
+<Différence_homme_femme unit="dix mille">99.1</Différence_homme_femme>
+<Surface unit="km2">139427</Surface>
+<Densité unit="personne/km2">426.75</Densité>
+</province>
+<province>
+<Nom>Sichuan</Nom>
+<Population unit="dix mille">8041.82</Population>
+<Homme unit="dix mille">4083.1</Homme>
+<Femme unit="dix mille">3958.73</Femme>
+<plus_15 unit="dix mille">5796.62</plus_15>
+<plus_64 unit="dix mille">880.755</plus_64>
+<Education_University unit="dix mille">536.83</Education_University>
+<Education_percentage>8.04%</Education_percentage>
+<Différence_homme_femme unit="dix mille">124.37</Différence_homme_femme>
+<Surface unit="km2">488000</Surface>
+<Densité unit="personne/km2">164.79</Densité>
+</province>
+<province>
+<Nom>Chongqing</Nom>
+<Population unit="dix mille">2884.62</Population>
+<Homme unit="dix mille">1459.59</Homme>
+<Femme unit="dix mille">1425.03</Femme>
+<plus_15 unit="dix mille">2061.41</plus_15>
+<plus_64 unit="dix mille">333.41</plus_64>
+<Education_University unit="dix mille">249.3</Education_University>
+<Education_percentage>10.41%</Education_percentage>
+<Différence_homme_femme unit="dix mille">34.56</Différence_homme_femme>
+<Surface unit="km2">82400</Surface>
+<Densité unit="personne/km2">350.08</Densité>
+</province>
+<province>
+<Nom>Shanxi</Nom>
+<Population unit="dix mille">3571.2</Population>
+<Homme unit="dix mille">1833.88</Homme>
+<Femme unit="dix mille">1737.33</Femme>
+<plus_15 unit="dix mille">2690.1</plus_15>
+<plus_64 unit="dix mille">270.53</plus_64>
+<Education_University unit="dix mille">311.43</Education_University>
+<Education_percentage>10.52%</Education_percentage>
+<Différence_homme_femme unit="dix mille">96.55</Différence_homme_femme>
+<Surface unit="km2">156700</Surface>
+<Densité unit="personne/km2">227.90</Densité>
+</province>
+<province>
+<Nom>Liaoning</Nom>
+<Population unit="dix mille">4374.63</Population>
+<Homme unit="dix mille">2214.77</Homme>
+<Femme unit="dix mille">2159.86</Femme>
+<plus_15 unit="dix mille">3423.99</plus_15>
+<plus_64 unit="dix mille">450.94</plus_64>
+<Education_University unit="dix mille">523.41</Education_University>
+<Education_percentage>13.51%</Education_percentage>
+<Différence_homme_femme unit="dix mille">54.91</Différence_homme_femme>
+<Surface unit="km2">148000</Surface>
+<Densité unit="personne/km2">295.58</Densité>
+</province>
+<province>
+<Nom>Shanghai</Nom>
+<Population unit="dix mille">2301.91</Population>
+<Homme unit="dix mille">1185.48</Homme>
+<Femme unit="dix mille">1116.44</Femme>
+<plus_15 unit="dix mille">1870.37</plus_15>
+<plus_64 unit="dix mille">232.98</plus_64>
+<Education_University unit="dix mille">505.3</Education_University>
+<Education_percentage>24.02%</Education_percentage>
+<Différence_homme_femme unit="dix mille">69.04</Différence_homme_femme>
+<Surface unit="km2">6340.5</Surface>
+<Densité unit="personne/km2">3,630.49</Densité>
+</province>
+<province>
+<Nom>Jilin</Nom>
+<Population unit="dix mille">2746.22</Population>
+<Homme unit="dix mille">1391.2</Homme>
+<Femme unit="dix mille">1355.02</Femme>
+<plus_15 unit="dix mille">2186.7</plus_15>
+<plus_64 unit="dix mille">230.26</plus_64>
+<Education_University unit="dix mille">271.61</Education_University>
+<Education_percentage>11.24%</Education_percentage>
+<Différence_homme_femme unit="dix mille">36.18</Différence_homme_femme>
+<Surface unit="km2">187400</Surface>
+<Densité unit="personne/km2">146.54</Densité>
+</province>
+<province>
+<Nom>Heilongjiang</Nom>
+<Population unit="dix mille">3831.2</Population>
+<Homme unit="dix mille">1945.98</Homme>
+<Femme unit="dix mille">1885.25</Femme>
+<plus_15 unit="dix mille">3054.35</plus_15>
+<plus_64 unit="dix mille">318.83</plus_64>
+<Education_University unit="dix mille">347.38</Education_University>
+<Education_percentage>10.30%</Education_percentage>
+<Différence_homme_femme unit="dix mille">60.73</Différence_homme_femme>
+<Surface unit="km2">469000</Surface>
+<Densité unit="personne/km2">81.69</Densité>
+</province>
+<province>
+<Nom>Shanxi</Nom>
+<Population unit="dix mille">3732.74</Population>
+<Homme unit="dix mille">1928.76</Homme>
+<Femme unit="dix mille">1803.98</Femme>
+<plus_15 unit="dix mille">2865.41</plus_15>
+<plus_64 unit="dix mille">318.38</plus_64>
+<Education_University unit="dix mille">394.03</Education_University>
+<Education_percentage>12.38%</Education_percentage>
+<Différence_homme_femme unit="dix mille">124.78</Différence_homme_femme>
+<Surface unit="km2">205800</Surface>
+<Densité unit="personne/km2">181.38</Densité>
+</province>
+<province>
+<Nom>Neimenggu</Nom>
+<Population unit="dix mille">2470.63</Population>
+<Homme unit="dix mille">1283.14</Homme>
+<Femme unit="dix mille">1187.5</Femme>
+<plus_15 unit="dix mille">1935.56</plus_15>
+<plus_64 unit="dix mille">186.82</plus_64>
+<Education_University unit="dix mille">252.19</Education_University>
+<Education_percentage>11.88%</Education_percentage>
+<Différence_homme_femme unit="dix mille">95.64</Différence_homme_femme>
+<Surface unit="km2">1183000</Surface>
+<Densité unit="personne/km2">20.88</Densité>
+</province>
+<province>
+<Nom>Hunan</Nom>
+<Population unit="dix mille">6568.37</Population>
+<Homme unit="dix mille">3376.82</Homme>
+<Femme unit="dix mille">3191.55</Femme>
+<plus_15 unit="dix mille">4768.6</plus_15>
+<plus_64 unit="dix mille">642.4</plus_64>
+<Education_University unit="dix mille">498.86</Education_University>
+<Education_percentage>9.22%</Education_percentage>
+<Différence_homme_femme unit="dix mille">185.27</Différence_homme_femme>
+<Surface unit="km2">211829</Surface>
+<Densité unit="personne/km2">310.08</Densité>
+</province>
+<province>
+<Nom>Hubei</Nom>
+<Population unit="dix mille">5723.77</Population>
+<Homme unit="dix mille">2939.29</Homme>
+<Femme unit="dix mille">2784.48</Femme>
+<plus_15 unit="dix mille">4407.01</plus_15>
+<plus_64 unit="dix mille">520.41</plus_64>
+<Education_University unit="dix mille">545.63</Education_University>
+<Education_percentage>11.07%</Education_percentage>
+<Différence_homme_femme unit="dix mille">154.81</Différence_homme_femme>
+<Surface unit="km2">185900</Surface>
+<Densité unit="personne/km2">307.90</Densité>
+</province>
+<province>
+<Nom>Jiangxi</Nom>
+<Population unit="dix mille">4456.75</Population>
+<Homme unit="dix mille">2308.46</Homme>
+<Femme unit="dix mille">2148.28</Femme>
+<plus_15 unit="dix mille">3143.08</plus_15>
+<plus_64 unit="dix mille">338.62</plus_64>
+<Education_University unit="dix mille">305.17</Education_University>
+<Education_percentage>8.76%</Education_percentage>
+<Différence_homme_femme unit="dix mille">160.18</Différence_homme_femme>
+<Surface unit="km2">166900</Surface>
+<Densité unit="personne/km2">267.03</Densité>
+</province>
+<province>
+<Nom>Fujian</Nom>
+<Population unit="dix mille">3689.42</Population>
+<Homme unit="dix mille">1898.11</Homme>
+<Femme unit="dix mille">1791.32</Femme>
+<plus_15 unit="dix mille">3118.85</plus_15>
+<plus_64 unit="dix mille">291.21</plus_64>
+<Education_University unit="dix mille">308.47</Education_University>
+<Education_percentage>9.05%</Education_percentage>
+<Différence_homme_femme unit="dix mille">106.79</Différence_homme_femme>
+<Surface unit="km2">124000</Surface>
+<Densité unit="personne/km2">297.53</Densité>
+</province>
+<province>
+<Nom>Hainan</Nom>
+<Population unit="dix mille">867.15</Population>
+<Homme unit="dix mille">455.99</Homme>
+<Femme unit="dix mille">411.16</Femme>
+<plus_15 unit="dix mille">626.08</plus_15>
+<plus_64 unit="dix mille">67.6</plus_64>
+<Education_University unit="dix mille">67.36</Education_University>
+<Education_percentage>9.71%</Education_percentage>
+<Différence_homme_femme unit="dix mille">44.83</Différence_homme_femme>
+<Surface unit="km2">35354</Surface>
+<Densité unit="personne/km2">245.28</Densité>
+</province>
+<province>
+<Nom>Yunnan</Nom>
+<Population unit="dix mille">4596.6</Population>
+<Homme unit="dix mille">2385</Homme>
+<Femme unit="dix mille">2211.6</Femme>
+<plus_15 unit="dix mille">3309.2</plus_15>
+<plus_64 unit="dix mille">350.6</plus_64>
+<Education_University unit="dix mille">265.6</Education_University>
+<Education_percentage>7.26%</Education_percentage>
+<Différence_homme_femme unit="dix mille">173.4</Différence_homme_femme>
+<Surface unit="km2">394000</Surface>
+<Densité unit="personne/km2">116.66</Densité>
+</province>
+<province>
+<Nom>Guizhou</Nom>
+<Population unit="dix mille">3474.65</Population>
+<Homme unit="dix mille">1795.15</Homme>
+<Femme unit="dix mille">1679.50</Femme>
+<plus_15 unit="dix mille">2300.47</plus_15>
+<plus_64 unit="dix mille">297.72</plus_64>
+<Education_University unit="dix mille">183.88</Education_University>
+<Education_percentage>7.08%</Education_percentage>
+<Différence_homme_femme unit="dix mille">115.65</Différence_homme_femme>
+<Surface unit="km2">176000</Surface>
+<Densité unit="personne/km2">197.42</Densité>
+</province>
+<province>
+<Nom>Gansu</Nom>
+<Population unit="dix mille">2557.53</Population>
+<Homme unit="dix mille">1306.41</Homme>
+<Femme unit="dix mille">1251.11</Femme>
+<plus_15 unit="dix mille">1882.56</plus_15>
+<plus_64 unit="dix mille">210.58</plus_64>
+<Education_University unit="dix mille">192.33</Education_University>
+<Education_percentage>9.19%</Education_percentage>
+<Différence_homme_femme unit="dix mille">55.3</Différence_homme_femme>
+<Surface unit="km2">454430</Surface>
+<Densité unit="personne/km2">56.28</Densité>
+</province>
+<province>
+<Nom>Ningxia</Nom>
+<Population unit="dix mille">630.14</Population>
+<Homme unit="dix mille">322.88</Homme>
+<Femme unit="dix mille">307.25</Femme>
+<plus_15 unit="dix mille">454.37</plus_15>
+<plus_64 unit="dix mille">40.39</plus_64>
+<Education_University unit="dix mille">57.67</Education_University>
+<Education_percentage>11.66%</Education_percentage>
+<Différence_homme_femme unit="dix mille">15.63</Différence_homme_femme>
+<Surface unit="km2">66400</Surface>
+<Densité unit="personne/km2">94.90</Densité>
+</province>
+<province>
+<Nom>Xinjiang</Nom>
+<Population unit="dix mille">2181.33</Population>
+<Homme unit="dix mille">1119.02</Homme>
+<Femme unit="dix mille">1062.31</Femme>
+<plus_15 unit="dix mille">1593.24</plus_15>
+<plus_64 unit="dix mille">135.03</plus_64>
+<Education_University unit="dix mille">232.99</Education_University>
+<Education_percentage>13.48%</Education_percentage>
+<Différence_homme_femme unit="dix mille">56.71</Différence_homme_femme>
+<Surface unit="km2">1664897</Surface>
+<Densité unit="personne/km2">13.10</Densité>
+</province>
+<province>
+<Nom>Xizang</Nom>
+<Population unit="dix mille">300.22</Population>
+<Homme unit="dix mille">154.26</Homme>
+<Femme unit="dix mille">145.95</Femme>
+<plus_15 unit="dix mille">211.76</plus_15>
+<plus_64 unit="dix mille">15.29</plus_64>
+<Education_University unit="dix mille">16.53</Education_University>
+<Education_percentage>7.28%</Education_percentage>
+<Différence_homme_femme unit="dix mille">8.31</Différence_homme_femme>
+<Surface unit="km2">1220000</Surface>
+<Densité unit="personne/km2">2.46</Densité>
+</province>
+<province>
+<Nom/>
+</province>
+</population_chine_final>

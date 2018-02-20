@@ -1,0 +1,836 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : TrendyBiz
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120818
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Donnees</title>
+    <link href="http://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans+Condensed:300" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="menu-wrapper">
+            <div id="menu" class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="population.html">Population</a></li>
+                    <li><a href="homme_femme.html">Homme&amp;Femme</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li class="current_page_item"><a href="donnees.html">Tableau de données</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--content-->
+        <div id="logo" class="container">
+            <h1><a href="#">Données</a></h1>
+            <p>Les description de données</p>
+        </div>
+        <div class="divider">&nbsp;</div>
+        <br/>
+        <div id="page" class="container">
+            <p>Comme notre sujet est par rapport à la population française et chinoise, nous avons choisi les données du recensement de la population qui permet de connaître la diversité et l'évolution de la population. Les données se composent principalement par deux parties: les données chinoises et les données françaises. Et pour mieux comparer ces deux données, on a choisi les données de la même année: 2010.</p>
+            <br/>
+            <h3>I.Chine</h3>
+            <p>Les données chinoises sont des données officielles du 6e recensement de la population de la Chine en 2010, qui sont récoltées dans le site de gouvernement http://www.stats.gov.cn/tjsj/pcsj/rkpc/6rp/indexch.htm. Les données totales du recensement sont géantes, mais elles sont bien classées par des rubrique dans des feuilles séparées excel. Donc on n'a téléchargé que des feuilles qu'on a besoin pour notre projet. Le premier fichier est la population par région, sexe et âge: la taille initiale est 26 ko est qui contient 25 colonne est 36 ligne; le deuxième fichier est la population de six an et plus par région, sexe et diplômes-formation: la taille initiale est 29 Ko et qu'il contient aussi 25 colonnes et 34 lignes. </p>
+            <p>NB: les données manquantes: le province Qinghai, Hong Kong, Taïwan, Macao.</p>
+
+            <p>Pour les données chinoises, on a extrait la population (unité: dix mille) totale, la population homme et femme, la population ayant le diplôme de l'enseignement supérieur de chaque province, et on a calculer le nombre de population de 15 ans et plus, la proportion de femme et d'homme et calculé la proportion de la population de 15 ans et plus qui ayant le diplôme de l'enseignement supérieur par province en utilisant LibreOffice. Pour calculer la densité de population par province, on a besoin des données de superficie de chaque province qu'elles ne sont pas présentes dans notre corpus. Alors on a cherché sur Internet et retenu les données proposées par Wikipédia. Et pour mieux traiter le fichier par la suite, on a transformé le fichier résultat en format csv. Avec le fichier csv comme entrée, on a écrit un script python pour le transformer en format xml demandé. Le fichier chinois en xml est 16 ko, les données sont bien structurées, et on a écrit aussi des grammaires DTD et Relax NG qui sont dans le dossier grammaires pour le fichier, aussi la sortie de la validation.</p>
+                <pre><table id="donnees">
+<tr>
+<th>Nom</th>
+<th>Population(dix mille)</th>
+<th>Homme(dix mille)</th>
+<th>Femme(dix mille)</th>
+<th>plus_15(dix mille)</th>
+<th>plus_64(dix mille)</th>
+<th>Education_University(dix mille)</th>
+<th>Education_percentage</th>
+<th>Différence_homme_femme(dix mille)</th>
+<th>Surface(km2)</th>
+<th>Densité(personne/km2)</th>
+</tr>
+<tr>
+<td>Shandong</td>
+<td>9579.31</td>
+<td>4844.71</td>
+<td>4734.59</td>
+<td>7128.90</td>
+<td>942.98</td>
+<td>832.87</td>
+<td>10.32%</td>
+<td>110.12</td>
+<td>157126</td>
+<td>609.66</td>
+</tr>
+<tr>
+<td>Beijing</td>
+<td>1961.2</td>
+<td>1012.6</td>
+<td>948.6</td>
+<td>1621.6</td>
+<td>170.9</td>
+<td>617.8</td>
+<td>34.47%</td>
+<td>64</td>
+<td>16411</td>
+<td>1,195.05</td>
+</tr>
+<tr>
+<td>Tianjin</td>
+<td>1293.8</td>
+<td>690.7</td>
+<td>603.1</td>
+<td>1056.84</td>
+<td>110.2</td>
+<td>226.2</td>
+<td>19.38%</td>
+<td>87.6</td>
+<td>11920</td>
+<td>1,085.40</td>
+</tr>
+<tr>
+<td>Hebei</td>
+<td>7185.42</td>
+<td>3643</td>
+<td>3542.4</td>
+<td>5384.1</td>
+<td>591.97</td>
+<td>524.3</td>
+<td>8.77%</td>
+<td>100.6</td>
+<td>190000</td>
+<td>378.18</td>
+</tr>
+<tr>
+<td>Guangdong</td>
+<td>10430.3</td>
+<td>5439.74</td>
+<td>4990.57</td>
+<td>7964.56</td>
+<td>703.92</td>
+<td>856.7</td>
+<td>9.88%</td>
+<td>449.17</td>
+<td>179800</td>
+<td>580.11</td>
+</tr>
+<tr>
+<td>Zhejiang</td>
+<td>5442.69</td>
+<td>2796.57</td>
+<td>2646.12</td>
+<td>4723.77</td>
+<td>508.17</td>
+<td>507.78</td>
+<td>9.71%</td>
+<td>150.45</td>
+<td>104141</td>
+<td>522.63</td>
+</tr>
+<tr>
+<td>Henan</td>
+<td>9402.36</td>
+<td>4748.99</td>
+<td>4653.36</td>
+<td>6641.88</td>
+<td>785.88</td>
+<td>601.56</td>
+<td>8.10%</td>
+<td>95.63</td>
+<td>167000</td>
+<td>563.02</td>
+</tr>
+<tr>
+<td>Jiangsu</td>
+<td>7865.99</td>
+<td>3963</td>
+<td>3902.9</td>
+<td>5986.19</td>
+<td>856.78</td>
+<td>850.68</td>
+<td>12.43%</td>
+<td>60.1</td>
+<td>102658</td>
+<td>766.23</td>
+</tr>
+<tr>
+<td>Guangxi</td>
+<td>4602.66</td>
+<td>2392.62</td>
+<td>2210.04</td>
+<td>3178.2</td>
+<td>425.32</td>
+<td>275.14</td>
+<td>7.64%</td>
+<td>182.58</td>
+<td>236700</td>
+<td>194.45</td>
+</tr>
+<tr>
+<td>Anhui</td>
+<td>5950.1</td>
+<td>3024.6</td>
+<td>2925.5</td>
+<td>4274.5</td>
+<td>605.7</td>
+<td>398.5</td>
+<td>8.17%</td>
+<td>99.1</td>
+<td>139427</td>
+<td>426.75</td>
+</tr>
+<tr>
+<td>Sichuan</td>
+<td>8041.82</td>
+<td>4083.1</td>
+<td>3958.73</td>
+<td>5796.62</td>
+<td>880.755</td>
+<td>536.83</td>
+<td>8.04%</td>
+<td>124.37</td>
+<td>488000</td>
+<td>164.79</td>
+</tr>
+<tr>
+<td>Chongqing</td>
+<td>2884.62</td>
+<td>1459.59</td>
+<td>1425.03</td>
+<td>2061.41</td>
+<td>333.41</td>
+<td>249.3</td>
+<td>10.41%</td>
+<td>34.56</td>
+<td>82400</td>
+<td>350.08</td>
+</tr>
+<tr>
+<td>Shanxi</td>
+<td>3571.2</td>
+<td>1833.88</td>
+<td>1737.33</td>
+<td>2690.1</td>
+<td>270.53</td>
+<td>311.43</td>
+<td>10.52%</td>
+<td>96.55</td>
+<td>156700</td>
+<td>227.90</td>
+</tr>
+<tr>
+<td>Liaoning</td>
+<td>4374.63</td>
+<td>2214.77</td>
+<td>2159.86</td>
+<td>3423.99</td>
+<td>450.94</td>
+<td>523.41</td>
+<td>13.51%</td>
+<td>54.91</td>
+<td>148000</td>
+<td>295.58</td>
+</tr>
+<tr>
+<td>Shanghai</td>
+<td>2301.91</td>
+<td>1185.48</td>
+<td>1116.44</td>
+<td>1870.37</td>
+<td>232.98</td>
+<td>505.3</td>
+<td>24.02%</td>
+<td>69.04</td>
+<td>6340.5</td>
+<td>3,630.49</td>
+</tr>
+<tr>
+<td>Jilin</td>
+<td>2746.22</td>
+<td>1391.2</td>
+<td>1355.02</td>
+<td>2186.7</td>
+<td>230.26</td>
+<td>271.61</td>
+<td>11.24%</td>
+<td>36.18</td>
+<td>187400</td>
+<td>146.54</td>
+</tr>
+<tr>
+<td>Heilongjiang</td>
+<td>3831.2</td>
+<td>1945.98</td>
+<td>1885.25</td>
+<td>3054.35</td>
+<td>318.83</td>
+<td>347.38</td>
+<td>10.30%</td>
+<td>60.73</td>
+<td>469000</td>
+<td>81.69</td>
+</tr>
+<tr>
+<td>Shanxi</td>
+<td>3732.74</td>
+<td>1928.76</td>
+<td>1803.98</td>
+<td>2865.41</td>
+<td>318.38</td>
+<td>394.03</td>
+<td>12.38%</td>
+<td>124.78</td>
+<td>205800</td>
+<td>181.38</td>
+</tr>
+<tr>
+<td>Neimenggu</td>
+<td>2470.63</td>
+<td>1283.14</td>
+<td>1187.5</td>
+<td>1935.56</td>
+<td>186.82</td>
+<td>252.19</td>
+<td>11.88%</td>
+<td>95.64</td>
+<td>1183000</td>
+<td>20.88</td>
+</tr>
+<tr>
+<td>Hunan</td>
+<td>6568.37</td>
+<td>3376.82</td>
+<td>3191.55</td>
+<td>4768.6</td>
+<td>642.4</td>
+<td>498.86</td>
+<td>9.22%</td>
+<td>185.27</td>
+<td>211829</td>
+<td>310.08</td>
+</tr>
+<tr>
+<td>Hubei</td>
+<td>5723.77</td>
+<td>2939.29</td>
+<td>2784.48</td>
+<td>4407.01</td>
+<td>520.41</td>
+<td>545.63</td>
+<td>11.07%</td>
+<td>154.81</td>
+<td>185900</td>
+<td>307.90</td>
+</tr>
+<tr>
+<td>Jiangxi</td>
+<td>4456.75</td>
+<td>2308.46</td>
+<td>2148.28</td>
+<td>3143.08</td>
+<td>338.62</td>
+<td>305.17</td>
+<td>8.76%</td>
+<td>160.18</td>
+<td>166900</td>
+<td>267.03</td>
+</tr>
+<tr>
+<td>Fujian</td>
+<td>3689.42</td>
+<td>1898.11</td>
+<td>1791.32</td>
+<td>3118.85</td>
+<td>291.21</td>
+<td>308.47</td>
+<td>9.05%</td>
+<td>106.79</td>
+<td>124000</td>
+<td>297.53</td>
+</tr>
+<tr>
+<td>Hainan</td>
+<td>867.15</td>
+<td>455.99</td>
+<td>411.16</td>
+<td>626.08</td>
+<td>67.6</td>
+<td>67.36</td>
+<td>9.71%</td>
+<td>44.83</td>
+<td>35354</td>
+<td>245.28</td>
+</tr>
+<tr>
+<td>Yunnan</td>
+<td>4596.6</td>
+<td>2385</td>
+<td>2211.6</td>
+<td>3309.2</td>
+<td>350.6</td>
+<td>265.6</td>
+<td>7.26%</td>
+<td>173.4</td>
+<td>394000</td>
+<td>116.66</td>
+</tr>
+<tr>
+<td>Guizhou</td>
+<td>3474.65</td>
+<td>1795.15</td>
+<td>1679.50</td>
+<td>2300.47</td>
+<td>297.72</td>
+<td>183.88</td>
+<td>7.08%</td>
+<td>115.65</td>
+<td>176000</td>
+<td>197.42</td>
+</tr>
+<tr>
+<td>Gansu</td>
+<td>2557.53</td>
+<td>1306.41</td>
+<td>1251.11</td>
+<td>1882.56</td>
+<td>210.58</td>
+<td>192.33</td>
+<td>9.19%</td>
+<td>55.3</td>
+<td>454430</td>
+<td>56.28</td>
+</tr>
+<tr>
+<td>Ningxia</td>
+<td>630.14</td>
+<td>322.88</td>
+<td>307.25</td>
+<td>454.37</td>
+<td>40.39</td>
+<td>57.67</td>
+<td>11.66%</td>
+<td>15.63</td>
+<td>66400</td>
+<td>94.90</td>
+</tr>
+<tr>
+<td>Xinjiang</td>
+<td>2181.33</td>
+<td>1119.02</td>
+<td>1062.31</td>
+<td>1593.24</td>
+<td>135.03</td>
+<td>232.99</td>
+<td>13.48%</td>
+<td>56.71</td>
+<td>1664897</td>
+<td>13.10</td>
+</tr>
+<tr>
+<td>Xizang</td>
+<td>300.22</td>
+<td>154.26</td>
+<td>145.95</td>
+<td>211.76</td>
+<td>15.29</td>
+<td>16.53</td>
+<td>7.28%</td>
+<td>8.31</td>
+<td>1220000</td>
+<td>2.46</td>
+</tr>
+ </table></pre>
+            <br/>
+            <h3>II.France</h3>
+            <p>Les récoltes de données françaises sont plus compliquées. Pour la population de France: au début, on a envisagé d'utiliser des données de INSEEE, mais ells sont très détaillées et trop grosses. Alors on a trouvé des données qui répondent mieux à notre demande. On a télécharger.</p>
+            <p>le fichier xls dans le site: <a href="https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/regions-departements/">https://www.ined.fr/fr/tout-savoir-population/chiffres/france/structure-population/regions-departements/</a>, comme la division de régions françaises a été changé en 2016, on a utilisé les anciennes régions de 2010. la taille initiale est 266 ko qui contient 40 feuille de 1975 à 2015, et pour chaque feuille, il contient des population par région, sexe et la tranche de l'âge. On a extrait donc la feuille de 2010 et calculé la nombre de femme et d'homme par région. Pour le niveau d'éducation, on a utiliser les données d'INSEE dans le site https://www.insee.fr/fr/statistiques/2862015#consulter, mais les données sont très détaillées et bruitées. Le fichier est aussi sous format xls, la taille initiale est 72,9 Mo qui contient la population par région, sex, tranche d'âge et le niveaux de diplôme/formation de 2009 et de 2014. On a d'abord extrait la feuille de 2009 et le transformer en format csv, et comme il n'y a pas de code région dans le fichier de population et qu'il n'y a que de code region dans le fichier de diplôme, on a écrit un script python (qui est dans le dossier script) pour calculer la population de 15 ans et plus ayant le diplôme de l'enseignement supérieur par région. Et ensuite, on a calculé sa proportion et la proportion de femme et d'homme dans le LibreOffice. Pour la densité d de population, on a trouvé un pdf qui précise bien la superficie et la densité de population de chaque région en 2010. Le lien de site est: <a href="http://static.education.francetv.fr/media/modules/A2/pdf/les_22_regions_de_france_metropolitaine.pdf">http://static.education.francetv.fr/media/modules/A2/pdf/les_22_regions_de_france_metropolitaine.pdf</a>. On a rajouté ces données dans notre fichier résultat csv et avec le même script python de transformation, on l'a transformé en xml. Le données nettoyées finales pour la France est 16 ko. Aussi, les grammaires DTD, Relax NG et la sortie de la validation sont dans le dossier grammaires.</p>
+            <p>NB: les données manquantes: Mayotte.</p>
+                <pre><table id="donnees">
+<tr>
+<th>Nom</th>
+<th>Numero_de_region</th>
+<th>Population_Totale(dix mille)</th>
+<th>Homme(dix mille)</th>
+<th>Proportion_H</th>
+<th>Femme(dix mille)</th>
+<th>Proportion_F</th>
+<th>Education_Universite(dix mille )</th>
+<th>Proportion_Universite</th>
+<th>Difference_femme_homme(dix mille)</th>
+<th>Densite(personne/km2)</th>
+</tr>
+<tr>
+<td>Alsace</td>
+<td>42</td>
+<td>184.57</td>
+<td>90.12</td>
+<td>48.83 %</td>
+<td>94.45</td>
+<td>51.17 % </td>
+<td>50.7888</td>
+<td>33.62%</td>
+<td>4.33</td>
+<td>222.9</td>
+</tr>
+<tr>
+<td>Aquitaine</td>
+<td>72</td>
+<td>323.24</td>
+<td>155.47</td>
+<td>48.10 %</td>
+<td>167.77</td>
+<td>51.90 %</td>
+<td>94.5193</td>
+<td>35.39%</td>
+<td>12.30</td>
+<td>78.3</td>
+</tr>
+<tr>
+<td>Auvergne</td>
+<td>83</td>
+<td>134.74</td>
+<td>65.22</td>
+<td>48.41 %</td>
+<td>69.52</td>
+<td>51.59 %</td>
+<td>36.1259</td>
+<td>32.03%</td>
+<td>4.30</td>
+<td>51.8</td>
+</tr>
+<tr>
+<td>Basse-Normandie</td>
+<td>25</td>
+<td>147.35</td>
+<td>71.39</td>
+<td>48.45 %</td>
+<td>75.96</td>
+<td>51.55 %</td>
+<td>34.9992</td>
+<td>29.03%</td>
+<td>4.57</td>
+<td>83.8</td>
+</tr>
+<tr>
+<td>Bourgogne</td>
+<td>26</td>
+<td>164.21</td>
+<td>79.54</td>
+<td>48.44 %</td>
+<td>84.67</td>
+<td>51.56 %</td>
+<td>41.2888</td>
+<td>30.25%</td>
+<td>5.13</td>
+<td>52.0</td>
+</tr>
+<tr>
+<td>Bretagne</td>
+<td>53</td>
+<td>319.91</td>
+<td>155.32</td>
+<td>48.55 %</td>
+<td>164.58</td>
+<td>51.45 %</td>
+<td>92.8681</td>
+<td>35.77%</td>
+<td>9.26</td>
+<td>117.6</td>
+</tr>
+<tr>
+<td>Centre</td>
+<td>24</td>
+<td>254.81</td>
+<td>123.87</td>
+<td>48.61 %</td>
+<td>130.94</td>
+<td>51.39 %</td>
+<td>65.2393</td>
+<td>31.34%</td>
+<td>7.07</td>
+<td>65.1</td>
+</tr>
+<tr>
+<td>Champagne-Ardenne</td>
+<td>21</td>
+<td>133.59</td>
+<td>65.11</td>
+<td>48.74 %</td>
+<td>68.48</td>
+<td>51.26 %</td>
+<td>31.4501</td>
+<td>28.73%</td>
+<td>3.37</td>
+<td>52.2</td>
+</tr>
+<tr>
+<td>Corse</td>
+<td>94</td>
+<td>30.97</td>
+<td>15.16</td>
+<td>48.96 %</td>
+<td>15.81</td>
+<td>51.04 %</td>
+<td>9.5117</td>
+<td>36.66%</td>
+<td>0.65</td>
+<td>35.7</td>
+</tr>
+<tr>
+<td>Franche-Comté</td>
+<td>43</td>
+<td>117.18</td>
+<td>57.62</td>
+<td>49.18 %</td>
+<td>59.55</td>
+<td>50.82 %</td>
+<td>30.0257</td>
+<td>31.55%</td>
+<td>1.93</td>
+<td>72.3</td>
+</tr>
+<tr>
+<td>Haute-Normandie</td>
+<td>23</td>
+<td>183.7</td>
+<td>88.72</td>
+<td>48.29 %</td>
+<td>94.98</td>
+<td>51.71 %</td>
+<td>43.99</td>
+<td>29.71%</td>
+<td>6.26</td>
+<td>149.1</td>
+</tr>
+<tr>
+<td>Île-de-France</td>
+<td>11</td>
+<td>1178.62</td>
+<td>569.12</td>
+<td>48.29 %</td>
+<td>609.5</td>
+<td>51.71 %</td>
+<td>427.7767</td>
+<td>45.33%</td>
+<td>40.38</td>
+<td>981.2</td>
+</tr>
+<tr>
+<td>Languedoc-Roussillon</td>
+<td>91</td>
+<td>263.64</td>
+<td>126.44</td>
+<td>47.96 %</td>
+<td>137.19</td>
+<td>52.04 %</td>
+<td>77.3157</td>
+<td>35.79%</td>
+<td>10.75</td>
+<td>96.3</td>
+</tr>
+<tr>
+<td>Limousin</td>
+<td>74</td>
+<td>74.28</td>
+<td>35.8</td>
+<td>48.20 %</td>
+<td>38.48</td>
+<td>51.80 %</td>
+<td>20.2262</td>
+<td>32.07%</td>
+<td>2.68</td>
+<td>43.8</td>
+</tr>
+<tr>
+<td>Lorraine</td>
+<td>41</td>
+<td>235.09</td>
+<td>114.67</td>
+<td>48.78 %</td>
+<td>120.42</td>
+<td>51.22 %</td>
+<td>59.7153</td>
+<td>30.80%</td>
+<td>5.75</td>
+<td>99.8</td>
+</tr>
+<tr>
+<td>Midi-Pyrénées</td>
+<td>73</td>
+<td>288.18</td>
+<td>140.36</td>
+<td>48.71 %</td>
+<td>147.82</td>
+<td>51.29 %</td>
+<td>90.9047</td>
+<td>38.17%</td>
+<td>7.46</td>
+<td>63.5</td>
+</tr>
+<tr>
+<td>Nord - Pas-de-Calais</td>
+<td>31</td>
+<td>403.82</td>
+<td>194.87</td>
+<td>48.26 %</td>
+<td>208.95</td>
+<td>51.74 %</td>
+<td>99.6519</td>
+<td>30.91%</td>
+<td>14.08</td>
+<td>325.3</td>
+</tr>
+<tr>
+<td>Pays de la Loire</td>
+<td>52</td>
+<td>357.15</td>
+<td>173.99</td>
+<td>48.72 %</td>
+<td>183.16</td>
+<td>51.28 %</td>
+<td>93.9425</td>
+<td>32.87%</td>
+<td>9.17</td>
+<td>111.3</td>
+</tr>
+<tr>
+<td>Picardie</td>
+<td>22</td>
+<td>191.48</td>
+<td>93.57</td>
+<td>48.87 %</td>
+<td>97.91</td>
+<td>51.13 %</td>
+<td>44.9822</td>
+<td>29.28%</td>
+<td>4.34</td>
+<td>98.7</td>
+</tr>
+<tr>
+<td>Poitou-Charentes</td>
+<td>54</td>
+<td>177.04</td>
+<td>85.7</td>
+<td>48.41 %</td>
+<td>91.34</td>
+<td>51.59 %</td>
+<td>45.7241</td>
+<td>31.18%</td>
+<td>5.64</td>
+<td>68.6</td>
+</tr>
+<tr>
+<td>Provence-Alpes-Côte d'Azur</td>
+<td>93</td>
+<td>489.92</td>
+<td>234.06</td>
+<td>47.78 %</td>
+<td>255.85</td>
+<td>52.22 %</td>
+<td>150.9745</td>
+<td>37.27%</td>
+<td>21.79</td>
+<td>156</td>
+</tr>
+<tr>
+<td>Rhône-Alpes</td>
+<td>82</td>
+<td>623.07</td>
+<td>303.67</td>
+<td>48.74 %</td>
+<td>319.4</td>
+<td>51.26 %</td>
+<td>187.1285</td>
+<td>37.44%</td>
+<td>15.73</td>
+<td>142.6</td>
+</tr>
+<tr>
+<td>Guadeloupe </td>
+<td>1</td>
+<td>40.34</td>
+<td>18.79</td>
+<td>46.59 %</td>
+<td>21.54</td>
+<td>53.41 %</td>
+<td>8.5083</td>
+<td>27.20%</td>
+<td>2.75</td>
+<td></td>
+</tr>
+<tr>
+<td>Martinique </td>
+<td>2</td>
+<td>39.42</td>
+<td>18.21</td>
+<td>46.20 %</td>
+<td>21.21</td>
+<td>53.80 %</td>
+<td>8.8144</td>
+<td>27.77%</td>
+<td>3.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Guyane</td>
+<td>973</td>
+<td>22.9</td>
+<td>11.36</td>
+<td>49.60 %</td>
+<td>11.54</td>
+<td>50.40 %</td>
+<td></td>
+<td></td>
+<td>0.18</td>
+<td></td>
+</tr>
+<tr>
+<td>La Réunion</td>
+<td>4</td>
+<td>82.11</td>
+<td>39.8</td>
+<td>48.46 %</td>
+<td>42.32</td>
+<td>51.54 %</td>
+<td>14.6992</td>
+<td>24.16%</td>
+<td>2.52</td>
+</tr>
+</table></pre>
+
+
+
+            
+				
+	
+        <!-- end #content -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+	<div class="divider">&nbsp;</div>
+	
+</div>
+<div id="footer-content" class="container">
+	
+</div>
+<div id="footer">
+	<p>@2017-2018 Inalco M2 TAL RONG Xi, YANG Mengwei, ZHANG Yunbei</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

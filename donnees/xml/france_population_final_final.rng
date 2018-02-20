@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="population_france_final">
+      <oneOrMore>
+        <element name="province">
+          <element name="Nom">
+            <text/>
+          </element>
+          <optional>
+            <element name="Numero_de_region">
+              <data type="integer"/>
+            </element>
+            <element name="Population_Totale">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Homme">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Proportion_H">
+              <text/>
+            </element>
+            <element name="Femme">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Proportion_F">
+              <text/>
+            </element>
+            <element name="Education_Universite">
+              <attribute name="unit"/>
+              <text/>
+            </element>
+            <element name="Proportion_Universite">
+              <text/>
+            </element>
+            <element name="Difference_femme_homme">
+              <attribute name="unit"/>
+              <data type="decimal"/>
+            </element>
+            <element name="Densite">
+              <attribute name="unit"/>
+              <text/>
+            </element>
+          </optional>
+        </element>
+      </oneOrMore>
+    </element>
+  </start>
+</grammar>
